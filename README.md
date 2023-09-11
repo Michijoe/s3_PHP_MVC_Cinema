@@ -1,4 +1,4 @@
-# Your-Project-Title
+# Cinéma Méliès
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -26,10 +26,10 @@ Programmation POO pour gérer les accès PDO à la base de données.
 L'environnement de développement instaure la date du jour au 25/10/2021.
 
 L'interface d'administration exploite 4 profils utilisateurs : admin, correcteur, éditeur, client.
-    - Client (défaut): accède uniquement au site frontend ;
-    - Correcteur : modifie uniquement toutes les entités autres qu'utilisateur ;
-    - Editeur : gère complètement toutes les entités sauf l'entité utilisateur ;
-    - Administrateur : gère complètement toutes les entités.
+- Client (défaut): accède uniquement au site frontend ;
+- Correcteur : modifie uniquement toutes les entités autres qu'utilisateur ;
+- Editeur : gère complètement toutes les entités sauf l'entité utilisateur ;
+- Administrateur : gère complètement toutes les entités.
 
 ## 🎯 Features
 
