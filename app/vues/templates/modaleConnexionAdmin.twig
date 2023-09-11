@@ -1,0 +1,19 @@
+<script type="module" src="js/modaleConnexionAdmin.js"></script>
+
+<dialog id="modaleConnexion">
+	<section>
+		<h1>{{ titre }}</h1>
+		<form action="admin" method="post">
+			<span>&nbsp;{{ messageErreurConnexion }}</span>
+
+			<label>Courriel</label>
+			<input type="text" name="utilisateur_courriel" value="">
+
+			<label>Mot de passe</label>
+			<input type="text" name="utilisateur_mdp" value="">
+
+			<input type="submit" value="Envoyer">
+
+		</form>
+	</section>
+</dialog>
